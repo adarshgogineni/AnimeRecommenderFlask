@@ -1,6 +1,7 @@
 # Anime Recommendation System
 An Anime Recommender using a Machine Learning Model - Cosine Similarity. 
 ### Technologies used: Python and Flask, Javascript, HTML, CSS
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="30px">
 <img src="https://www.jumpingrivers.com/blog/r-shiny-python-flask/original.jpg" width="30px">
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="25px">

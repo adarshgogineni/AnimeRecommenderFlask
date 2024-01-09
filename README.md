@@ -76,3 +76,9 @@ To run the Anime Recommendation System locally, follow these steps:
    ```sh
    flask run
    ```
+8. View application on local host:
+   ```sh
+   http://127.0.0.1:5000/
+   ```
+
+## Usage:

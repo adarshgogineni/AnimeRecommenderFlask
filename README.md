@@ -6,7 +6,7 @@ An Anime Recommender using a Machine Learning Model - Cosine Similarity.
 <img src="https://www.jumpingrivers.com/blog/r-shiny-python-flask/original.jpg" width="50px">
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="25px">
 <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" width="25px">
-<img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" width="25px">
+<img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" width="30px">
 
 
 

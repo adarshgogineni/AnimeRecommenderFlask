@@ -50,4 +50,28 @@ To run the Anime Recommendation System locally, follow these steps:
    ```sh
    https://github.com/adarshgogineni/AnimeRecommenderFlask.git
    ```
-   
+2. Navigate to the project directory 
+   ```sh
+   cd AnimeRecommenderFlask
+   ```
+3. Create a virtual environment (optional but recommended)
+   ```sh
+   python -m venv venv
+   ```
+4. Activate the Virtual Environment
+   Windows:
+   ```sh
+   venv\Scripts\activate
+   ```
+   Mac:
+   ```sh
+   source venv/bin/activate
+   ```
+5. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+6. Run the Application:
+   ```sh
+   flask run
+   ```

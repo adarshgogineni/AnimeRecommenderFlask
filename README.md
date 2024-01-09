@@ -2,11 +2,11 @@
 An Anime Recommender using a Machine Learning Model - Cosine Similarity. 
 
 ##Technologies used: Python and Flask, Javascript, HTML, CSS
-[![Python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)](https://www.python.org/)
-[![Flask](https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg)](https://flask.palletsprojects.com/)
-[![JavaScript](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![HTML](https://cdn-icons-png.flaticon.com/512/174/174854.png)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS](https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg" width="100px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="100px">
+<img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" width="100px">
+<img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" width="100px">
 
 
 

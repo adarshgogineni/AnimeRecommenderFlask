@@ -5,7 +5,6 @@ An Anime Recommender using a Machine Learning Model called Cosine Similarity dep
 - [Overview](#overview)
 - [Machine Learning Model](#machine-learning-model)
 - [Benefits](#benefits)
-- [Deployment](#deployment)
 - [Local Setup](#local-setup)
 - [Usage](#usage)
 
@@ -42,9 +41,6 @@ The `get_recommendations` function in the code calculates and returns a list of 
 
 - **User-Friendly Interface**: The application provides an intuitive and user-friendly interface for an enjoyable experience.
 
-## Deployment
-
-The Anime Recommendation System is deployed on Heroku and can be accessed online at [Link to Deployed App](https://anime-recommender-herokuapp.com/). Simply visit the link to start receiving personalized anime recommendations.
 
 ## Local Setup
 
@@ -52,4 +48,6 @@ To run the Anime Recommendation System locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/anime-recommendation.git
+   https://github.com/adarshgogineni/AnimeRecommenderFlask.git
+   ```
+   

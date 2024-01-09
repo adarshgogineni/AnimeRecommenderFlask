@@ -11,7 +11,6 @@
 - [Deployment](#deployment)
 - [Local Setup](#local-setup)
 - [Usage](#usage)
-- [License](#license)
 
 ## Overview
 

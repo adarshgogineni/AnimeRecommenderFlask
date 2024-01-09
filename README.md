@@ -1,8 +1,5 @@
-# AnimeRecommenderFlask
- Anime Recommender Machine Learning Model Deployed with Flask
 # Anime Recommendation System
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+An Anime Recommender using a Machine Learning Model called Cosine Similarity deployed with Python and Flask
 
 ## Table of Contents
 - [Overview](#overview)
@@ -14,15 +11,24 @@
 
 ## Overview
 
-This project is an Anime Recommendation System that utilizes machine learning to provide personalized anime recommendations to users. Whether you're an anime enthusiast or new to the world of anime, our system aims to help you discover anime titles that align with your preferences.
-
+This project is an Anime Recommendation System that utilizes machine learning to provide anime recommendations to users. Whether you're an anime enthusiast or new to the world of anime, our system aims to help you discover anime titles that align with your preferences. Simply type an anime that you like into the search bar, and find other similar animes like it.
+ 
 ## Machine Learning Model
 
-Our recommendation system is powered by a collaborative filtering-based machine learning model. Collaborative filtering analyzes user interactions and preferences to make personalized recommendations. Specifically, we use the User-Based Collaborative Filtering technique, which identifies users with similar anime preferences and recommends anime titles that these similar users have enjoyed.
+Our recommendation system is powered by a Cosine Similarity-based machine learning model. Cosine Similarity is a technique used to measure the similarity between items based on their feature vectors. In the context of our anime recommendation system, it calculates the similarity between different anime titles by comparing their feature vectors.
 
-### Why User-Based Collaborative Filtering?
+### Why Cosine Similarity?
 
-- **Personalization**: User-Based Collaborative Filtering is known for its ability to provide personalized recommendations based on user behavior and preferences.
+- **Efficiency**: Cosine Similarity is computationally efficient, making it suitable for providing real-time recommendations.
+
+- **Ease of Interpretation**: This technique is easy to understand and interpret, making it valuable for explaining recommendations to users.
+
+- **Effective for High-Dimensional Data**: Cosine Similarity works well for high-dimensional data, which is common in recommendation systems with many features.
+
+Our model computes the cosine similarity scores between anime titles based on their genre, type, episodes, and rating. These scores are used to recommend anime titles that are most similar to the user's preferences.
+
+The `get_recommendations` function in the code calculates and returns a list of anime titles that are most similar to the input anime, allowing users to discover new anime based on their interests.
+
 
 - **Scalability**: It works well for a large number of users and items, making it suitable for anime recommendation systems.
 

@@ -82,3 +82,11 @@ To run the Anime Recommendation System locally, follow these steps:
    ```
 
 ## Usage:
+<img width="1624" alt="Screenshot 2024-01-09 at 9 54 33 AM" src="https://github.com/adarshgogineni/AnimeRecommenderFlask/assets/32943978/8327efc4-4d5e-4e91-9f8d-23c4b8924f0b">
+
+Type in the name of an anime you like:
+<img width="1624" alt="Screenshot 2024-01-09 at 9 55 48 AM" src="https://github.com/adarshgogineni/AnimeRecommenderFlask/assets/32943978/105fdfec-36c0-455a-9470-f8a744a88874">
+
+Get results similar to the anime:
+<img width="1624" alt="Screenshot 2024-01-09 at 9 56 12 AM" src="https://github.com/adarshgogineni/AnimeRecommenderFlask/assets/32943978/c3e8b088-9708-4f94-b982-0c370f0cc86c">
+

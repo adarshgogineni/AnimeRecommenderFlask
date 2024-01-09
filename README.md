@@ -3,7 +3,7 @@ An Anime Recommender using a Machine Learning Model - Cosine Similarity.
 
 ##Technologies used: Python and Flask, Javascript, HTML, CSS
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100px">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg" width="100px">
+<img src="https://www.jumpingrivers.com/blog/r-shiny-python-flask/original.jpg" width="100px">
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="100px">
 <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" width="100px">
 <img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" width="100px">

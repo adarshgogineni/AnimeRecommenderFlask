@@ -59,6 +59,7 @@ To run the Anime Recommendation System locally, follow these steps:
    python -m venv venv
    ```
 4. Activate the Virtual Environment
+   
    Windows:
    ```sh
    venv\Scripts\activate
@@ -67,11 +68,11 @@ To run the Anime Recommendation System locally, follow these steps:
    ```sh
    source venv/bin/activate
    ```
-5. Install dependencies:
+6. Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
-6. Run the Application:
+7. Run the Application:
    ```sh
    flask run
    ```

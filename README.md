@@ -1,5 +1,5 @@
 # Anime Recommendation System
-An Anime Recommender using a Machine Learning Model called Cosine Similarity deployed with Python and Flask, Javascript, HTML, CSS
+An Anime Recommender using a Machine Learning Model - Cosine Similarity. Technologies used: Python and Flask, Javascript, HTML, CSS
 
 ## Table of Contents
 - [Overview](#overview)

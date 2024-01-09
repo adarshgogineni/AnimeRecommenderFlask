@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <title>Anime Recommendations</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="title-container">
+        <h1>Anime Recommendations</h1>
+        <h2>Enter an anime name to get recommendations:</h2>
+    </div>
+    <div class="search-container">
+        <form action="/recommend" method="post">
+            <input type="text" name="anime_name" id="anime_name" placeholder="Enter Anime Name"  class="search-box">
+            <button type="submit" class="submit-button" >Search</button>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+
+   
+</body>
+</html>

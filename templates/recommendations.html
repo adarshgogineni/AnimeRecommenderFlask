@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <title>Recommendations</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <h2>Recommendations:</h2>
+    <ul>
+        {% for anime in recommendations %}
+        <li>{{ anime }}</li>
+        {% endfor %}
+    </ul>
+    <div class="back-button-container">
+        <a href="/" class="back-button">Back to Search</a>
+    </div>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

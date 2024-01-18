@@ -7,7 +7,25 @@ body {
     text-align: center;
     padding: 50px;
 }
+.flash-messages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
+.flash-message {
+    padding: 10px 20px;
+    font-size: x-large;
+    font-weight: bold;
+    animation: flash 2s infinite;
+}
+
+@keyframes flash {
+    0% {opacity: 1;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
 .search-box {
     padding: 10px;
     width: 300px;

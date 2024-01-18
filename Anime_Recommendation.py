@@ -4,6 +4,7 @@ import seaborn as sns
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics.pairwise import cosine_similarity
+from joblib import dump, load
 
 # read data
 anime_data = pd.read_csv('anime.csv')
@@ -77,4 +78,11 @@ def get_recommendations(anime_name, cosine_sim=cosine_sim):
     return anime_data['name'].iloc[anime_indices]
 
 
-print(get_recommendations('Naruto'))
+# Save the fitted MultiLabelBinarizer instance
+dump(mlb, 'mlb.joblib')
+
+# Save the fitted StandardScaler instances
+dump(scaler, 'scaler.joblib')  # Assuming you have used the same scaler instance for both 'rating' and 'episodes'
+
+# Save the cosine similarity matrix
+dump(cosine_sim, 'cosine_sim.joblib')
